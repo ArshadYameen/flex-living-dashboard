@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { Review, Listing } from "@/lib/types";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
