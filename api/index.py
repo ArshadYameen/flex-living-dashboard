@@ -178,3 +178,12 @@ async def sync_google_reviews(listing_id: int, session: Session = Depends(get_se
     session.commit()
     
     return {"status": "success", "new_reviews_added": new_reviews_added}
+
+@app.get("/api/seed-database-now")
+def seed_the_db():
+    from api.seed import normalize_and_seed
+    try:
+        normalize_and_seed()
+        return {"status": "success", "message": "Database seeded."}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
