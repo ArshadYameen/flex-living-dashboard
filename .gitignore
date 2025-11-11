@@ -1,0 +1,16 @@
+# Python/Venv
+venv/
+__pycache__/
+*.pyc
+
+# Next.js / Node
+web/node_modules/
+web/.next/
+web/out/
+web/.env.local
+npm-debug.log*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store

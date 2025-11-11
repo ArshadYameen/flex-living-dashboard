@@ -1,0 +1,51 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again :)",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "One Hundred Shoreditch"
+    },
+    {
+      "id": 7454,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9.5,
+      "publicReview": "Great stay, very clean and modern. Location was perfect!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "check_in", "rating": 10 },
+        { "category": "accuracy", "rating": 9 }
+      ],
+      "submittedAt": "2023-10-25 10:30:00",
+      "guestName": "Jane Doe",
+      "listingName": "1A S2 B - 15 Camden Place"
+    },
+    {
+      "id": 7455,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 7.0,
+      "publicReview": "The place was nice, but the wifi was very slow.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "amenities", "rating": 4 }
+      ],
+      "submittedAt": "2023-11-01 14:15:22",
+      "guestName": "John Smith",
+      "listingName": "One Hundred Shoreditch"
+    }
+  ]
+}
